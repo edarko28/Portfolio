@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullstack Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    <script src="https://kit.fontawesome.com/f89e964879.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">.DICEY</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+    <nav id="hamburger">
+        <div class="logo">.DICEY</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="assets/unnamed.jpg" alt="profile picture" class="profile-pic">
+        </div>
+        <div class="section_txt">
+            <p class="section-p1">Hello, I am </p>
+            <h1 class="title">Evans Boakye Darko</h1>
+            <p class="section_p2">Fullstack Developer</p>
+            <div class="button-cont">
+                <button class="btn btn-color-2" onclick="window.open('assets/unnamed.jpg')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials">
+                <i class="fa-brands fa-linkedin fa-lg" alt="LinkedIn profile" onclick="location.href='https://linkedin.com'"></i>
+                <i class="fa-brands fa-github fa-lg" alt="Github profile" onclick="location.href='https://github.com/edarko28'"></i>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/IMG-20241025-WA0001.jpg" alt="about-pic" class="about-pic">
+            </div>
+            <div class="about-detail-cont">
+                <div class="about-cont">
+                    <div class="detail-cont">
+                        <i class="fa-solid fa-certificate" alt="Experience icon"></i>
+                        <h3>Experience</h3>
+                        <p>1 year <br />Fullstack Development</p>
+                    </div>
+                    <div class="detail-cont">
+                        <i class="fa-solid fa-school" alt="Education"></i>
+                        <h3>Education</h3>
+                        <p>B.A. Publishing Studies</p>
+                    </div>
+                </div>
+                <div class="text-cont">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In enim metus, facilisis quis lorem ut, dapibus mollis erat. Donec justo nibh, consequat non tincidunt congue, pretium convallis neque. Vestibulum bibendum orci aliquam lorem sodales, sed fringilla massa fermentum. 
+                    Maecenas at ultricies nibh, a molestie quam. Ut porttitor purus eget semper feugiat.Ut nisl purus, vulputate id ante ac, scelerisque posuere eros.Fusce hendrerit, sem eu laoreet porttitor, mi sapien egestas orci, vitae semper nunc justo sit amet elit. Sed vel pellentesque lacus. 
+                    Donec rhoncus lectus semper lorem rutrum efficitur. In blandit egestas nisi vulputate malesuada.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-down-long" alt="next" onclick="location.href='./#experience'"></i>
+    </section>
+    <section id="experience">
+        <p class="section-p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-detail-cont">
+            <div class="about-cont">
+                <div class="detail-cont">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-cont">
+                        <article>
+                            <i 
+                            class="fa-solid fa-circle-check" 
+                            alt="Experience icon"></i>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check" alt="Experience icon"></i>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check" alt="Experience icon"></i>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check" alt="Experience icon"></i>
+                            <div>
+                                <h3>Tailwind</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check" alt="Experience icon"></i>
+                            <div>
+                                <h3>React</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check" alt="Experience icon"></i>
+                            <div>
+                                <h3>Angular</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check" alt="Experience icon"></i>
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="detail-cont">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-cont">
+                        <article>
+                            <i class="fa-solid fa-circle-check" alt="Experience icon"></i>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check" alt="Experience icon"></i>
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check" alt="Experience icon"></i>
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check" alt="Experience icon"></i>
+                            <div>
+                                <h3>Node Js</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check" alt="Experience icon" class="check"></i>
+                            <div>
+                                <h3>Git</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+            </div>
+        </div>
+        <i class="fa-solid fa-down-long" alt="next" onclick="location.href='./#projects'"></i>   
+    </section>
+    <section id="projects">
+        <p class="section-p1">Browse My</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-detail-cont">
+            <div class="about-cont">
+            <div class="detail-cont color-cont">
+                <div class="article-cont">
+                    <img src="assets/images.jpg" alt="First project" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 1</h2>
+                <div class="btn-cont">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=''">Live Demo</button>
+                </div>
+            </div>
+            <div class="detail-cont color-cont">
+                <div class="article-cont">
+                    <img src="assets/images.jpg" alt="project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 2</h2>
+                <div class="btn-cont">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=''">Live Demo</button>
+                </div>
+            </div>
+            <div class="detail-cont color-cont">
+                <div class="article-cont">
+                    <img src="assets/images.jpg" alt="project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 3</h2>
+                <div class="btn-cont">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=''">Live Demo</button>
+                </div>
+            </div>
+            <div class="detail-cont color-cont">
+                <div class="article-cont">
+                    <img src="assets/images.jpg" alt="project 4" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 4</h2>
+                <div class="btn-cont">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=''">Live Demo</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <i class="fa-solid fa-down-long" alt="next" onclick="location.href='./#projects'"></i>
+    </section>
+    <section id="contact">
+        <p class="section-p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-cont">
+            <div class="contact-info-cont">
+                <i class="fa-solid fa-envelope email-icon" alt="Email icon"></i>
+                <p><a href="malito:evans.darko700@gmail.com?subject=Hello&body=How are you?">evans.darko700@gmail.com</a>
+            </div>
+                <div class="contact-info-cont">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p><a href="https://www.linkedin.com">LinkedIn</a>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-cont">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Evans Darko. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
