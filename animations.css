@@ -26,3 +26,10 @@ button.btn:hover{
     background-color: white;
     color: black;
 }
+/* About Section Slide In Text Animation */
+#about .section__pic-container{
+    animation: slideInLeft 1s ease-out;
+}
+#about .about-detail-cont{
+    animation: slideInRight 1s ease-out;
+}
