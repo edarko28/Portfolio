@@ -6,9 +6,6 @@
     .about-cont{
         flex-wrap: wrap;
     }
-    section{
-        
-    }
 }
 
 @media screen and (max-width: 1200px) {
