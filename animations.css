@@ -1,3 +1,4 @@
+/*Hero section fade in animation */
 #profile{
     animation: fadeIn 2s ease-in-out;
 }
@@ -10,4 +11,9 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+/* Button hovering animation */
+button.btn{
+    background: #007bff;
+    color: white;
 }
