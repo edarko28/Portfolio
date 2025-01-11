@@ -125,6 +125,10 @@ section{
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    background: linear-gradient(to bottom, #333, #111);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
 }
 .section-container{
     display: flex;
