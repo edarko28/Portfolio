@@ -124,8 +124,7 @@ section{
     height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
-    min-height: fit-content;
-    
+    min-height: fit-content; 
 }
 .section-container{
     display: flex;
