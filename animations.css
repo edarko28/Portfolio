@@ -14,6 +14,11 @@
 }
 /* Button hovering animation */
 button.btn{
-    background: #007bff;
-    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+button.btn:hover{
+    background-color: white;
+    color: black;
 }
