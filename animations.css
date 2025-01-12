@@ -53,3 +53,10 @@ button.btn:hover{
         opacity: 1;
     }
 }
+.experience-detail-cont article{
+    transition:  transform 0.3s ease, box-shadow 0.3s ease;
+}
+.experience-detail-cont article:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
