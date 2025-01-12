@@ -53,10 +53,45 @@ button.btn:hover{
         opacity: 1;
     }
 }
+/* Experience section Animation */
 .experience-detail-cont article{
     transition:  transform 0.3s ease, box-shadow 0.3s ease;
 }
 .experience-detail-cont article:hover{
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+/*Project Section Image Zoom Animation*/
+.project-img{
+    transition: transform 0.5s ease;
+}
+.project-img:hover{
+    transform: scale(1.1);
+}
+/* Contact Pulse Section Animation*/
+.contact-info-cont i {
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+/* Scroll Animation*/
+.fa-down-long{
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
 }
